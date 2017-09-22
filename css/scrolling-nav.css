@@ -14,16 +14,25 @@ header {
 
 section {
     background-color: #dfDed4;
-  padding: 75px 0;
+    padding: 75px 0;
 }
 
 hr{
   color:#ca171b;
 }
 
+#nameHold{
+  background-color:rgba(214,211,196,0.5);
+  color:#432f21;
+}
+
 #top{
   text-align: center;
   background-color: #d6d3c4 !important;
+  background-image: url("../img/bgtop.png");
+  height:100%;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 #mainNav, footer{
@@ -36,10 +45,11 @@ hr{
 
 .btn{
   background-color:#432f21;
+  color: #d6d3c4
 }
 
 i{
-  color:#ca171b;
+  color:rgba(202,23,27,0.75);
 }
 
 #aboutImg{
@@ -79,6 +89,10 @@ i{
     overflow: hidden;
 }
 
+.lead2{
+  font-size: 1em;
+}
+
 .overlay {
   position: absolute;
   visibility: hidden;
@@ -92,7 +106,7 @@ i{
 .portfolio-entry:hover .overlay {
   visibility: visible;
   color: white;
-  background-color:  #432f21;
+  background-color:  rgba(202,23,27,0.75);
   text-align: center;
 }
 
@@ -102,6 +116,10 @@ i{
 
 .port-row {
   margin-bottom: 60px;
+}
+
+#portTag{
+  color:#432f21;
 }
 
 #portfolio{
