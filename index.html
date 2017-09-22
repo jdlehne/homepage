@@ -5,12 +5,14 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
+  <meta name="description" content="jdl homepage">
+  <meta name="author" content="josh lehne">
   <title>Josh Lehne</title>
-
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!--soical icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--devicon-->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link href="css/scrolling-nav.css" rel="stylesheet">
 
 </head>
@@ -18,7 +20,7 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Josh Lehne</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,15 +42,37 @@
     </div>
   </nav>
 
-  <!--<header class="bg-primary text-white">
-      <div class="container text-center">
-        <h1>Welcome to Scrolling Nav</h1>
-        <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
-      </div>
-    </header>-->
+  <header id="top" class="header">
+    <div class="text-vertical-center">
+      <h3><i class="devicon-git-plain"> </i>
+    <i class="devicon-github-plain"> </i>
+  <i class="devicon-gitlab-plain"> </i>
+<i class="devicon-jquery-plain"> </i>
+<i class="devicon-mongodb-plain"> </i></h3>
+
+      <hr>
+      <br>
+      <h1>Josh Lehne</h1>
+      <br>
+      <h3>Full Stack Web Developer</h3>
+      <br>
+      <hr>
+      <h3><i class="devicon-html5-plain"> </i>
+        <i class="devicon-atom-original"> </i>
+        <i class="devicon-css3-plain"> </i>
+        <i class="devicon-nodejs-plain"> </i>
+        <i class="devicon-react-original"> </i>
+        <i class="devicon-express-original"> </i></h3>
+
+        <br>
+
+      <a href="#about" class="btn btn-lg">Find Out More</a>
+    </div>
+  </header>
+
 
   <section id="about">
-    <div class="container">
+    <div class="container" id="aboutCon">
 
       <div class="row">
         <div class="col-md-12">
@@ -72,69 +96,138 @@
         <div class="col-md-12">
           <hr>
           <h2>Where I've Been</h2>
-          <p class="lead">Originally from Moline Illinois I moved to KCMO right out of high school to attend the Kansas City Art Institute, then onto UMKC to finish a degree in Art Thoery and Criticism.
-          I then moved into the service industry where I managed a local staple and internationally reknowned bar in the heart of the plaza.  Through all those adventures and amidst my family, art and music my downtime
-          was spent persuing another passion, coding. Though all my life experiences I've learned to be highly adaptable in the all kinds of environments, proficient in Javascript, HTML5, CSS, Node and database technologies.
-           strong foundation in basic languages help me to keep learning new ones on the fly. </p>
+          <p class="lead">Originally from Moline Illinois I moved to KCMO right out of high school to attend the Kansas City Art Institute, then onto UMKC to finish a degree in Art Thoery and Criticism. I then moved into the service industry where I managed a local staple
+            and internationally reknowned bar in the heart of the plaza. Through all those adventures and amidst my family, art and music my downtime was spent persuing another passion, coding. Though all my life experiences I've learned to be highly
+            adaptable in the all kinds of environments, proficient in Javascript, HTML5, CSS, Node and database technologies. Having a strong foundation in basic languages helps me to keep learning new ones on the fly. </p>
         </div>
       </div>
     </div>
   </section>
-<!---------------------------------------------------Portfolio Page------------------------->
+  <!---------------------------------------------------Portfolio Page------------------------->
   <section id="portfolio" class="bg-light">
-    <div class="container">
+    <div class="container" id="portCon">
+
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2>Portfolio Work</h2>
           <hr class="small">
         </div>
       </div>
-
-      <div class="row">
+      <!--Port Block 1--------------------------------------->
+      <div class="row port-row">
         <div class="col-lg-6">
           <div class="portfolio-entry">
-          <div class="overlay">
-            <span class="title">
-            <h4 class ="reference-title">NAME of PROJECT</h4>
-          <p class="lead">Description/languages used</p>
+            <div class="overlay">
+              <span class="title">
+            <h4 class ="reference-title">Another Online Adventure</h4>
+          <p class="lead2">Mix up of clasic text based games and a MMORPG. HTML, CSS, JavaScript and Firebase to store all user and game data.</p>
         </span>
-          </div>
-          <a href="link to project">
+            </div>
+            <a href="https://eodchop.github.io/AoA/">
           <img class = "img-portfolio img-responsive" src="./img/aoa.jpg">
         </a>
-      </div>
+          </div>
         </div>
 
         <div class="col-lg-6">
           <div class="portfolio-entry">
-          <div class="overlay">
-            <span class="title">
-            <h4 class ="reference-title">NAME of PROJECT</h4>
-          <p class="lead">Description/languages used</p>
+            <div class="overlay">
+              <span class="title">
+            <h4 class ="reference-title">Crystal Counter</h4>
+          <p class="lead2">Each crystal contain randomly generated values, solve the math to match the number. HTML, CSS, JavaScript</p>
         </span>
-          </div>
-          <a href="link to project">
-          <img class = "img-portfolio img-responsive" src="./img/aoa.jpg">
+            </div>
+            <a href="https://jdlehne.github.io/Crystal-Counter.io/index.html">
+          <img class = "img-portfolio img-responsive" src="./img/crystal.jpg">
         </a>
+          </div>
+        </div>
       </div>
+      <!--Port Block 2--------------------------------------->
+      <div class="row port-row">
+        <div class="col-lg-6">
+          <div class="portfolio-entry">
+            <div class="overlay">
+              <span class="title">
+            <h4 class ="reference-title">Trains On Time</h4>
+          <p class="lead2">Description/languages used</p>
+        </span>
+            </div>
+            <a href="https://jdlehne.github.io/Train-Scheduler/">
+          <img class = "img-portfolio img-responsive" src="./img/tot.png">
+        </a>
+          </div>
         </div>
 
+        <div class="col-lg-6">
+          <div class="portfolio-entry">
+            <div class="overlay">
+              <span class="title">
+            <h4 class ="reference-title">NAME of PROJECT</h4>
+          <p class="lead2">Description/languages used</p>
+        </span>
+            </div>
+            <a href="https://jdlehne.github.io/Hangman-Game.io/">
+          <img class = "img-portfolio img-responsive" src="./img/trans.png">
+        </a>
+          </div>
+        </div>
       </div>
+      <!--Port Block 3--------------------------------------->
+      <div class="row port-row">
+        <div class="col-lg-6">
+          <div class="portfolio-entry">
+            <div class="overlay">
+              <span class="title">
+            <h4 class ="reference-title">NAME of PROJECT</h4>
+          <p class="lead2">Description/languages used</p>
+        </span>
+            </div>
+            <a href="https://jdlehne.github.io/rpg/index.html">
+          <img class = "img-portfolio img-responsive" src="./img/rpg.png">
+        </a>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="portfolio-entry">
+            <div class="overlay">
+              <span class="title">
+            <h4 class ="reference-title">NAME of PROJECT</h4>
+          <p class="lead2">Description/languages used</p>
+        </span>
+            </div>
+            <a href="https://jdlehne.github.io/Trivia-Game/">
+          <img class = "img-portfolio img-responsive" src="./img/trivia.png">
+        </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
   </section>
 
   <section id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2>Contact us</h2>
-          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          <h3>Contact Me</h3>
+          <hr>
+          <h4>Josh Lehne</h4>
+          <p class ="KC-MO">KC-MO</p>
+          <p class="lead"><a href="mailto:jdlehne@gmail.com">jdlehne@gmail.com</a></p>
+          <h1><a href="https://www.facebook.com/josh.lehne.7">  <i class="fa fa-facebook-square"></i></a>
+          <a href="https://github.com/jdlehne"><i class="fa fa-github">  </i></a>
+          <a href="https://www.linkedin.com/in/josh-lehne-aa501913a/">  <i class="fa fa-linkedin-square"></i></a>
+          <a href="https://stackoverflow.com/users/8083055/josh-lehne">  <i class="fa fa-stack-overflow"></i></a></h1>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <footer class="py-5 ">
     <div class="container">
       <p class="m-0 text-center text-white">Copyright &copy; Josh Lehne 2017</p>
     </div>

@@ -1,9 +1,7 @@
-/*!
- * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/template-overviews/scrolling-nav)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
- */
 
+body{
+  background-color: #ffffff;
+}
 header {
   padding: 154px 0 100px;
 }
@@ -15,10 +13,33 @@ header {
 }
 
 section {
+    background-color: #dfDed4;
   padding: 75px 0;
 }
 
-.attributes {
+hr{
+  color:#ca171b;
+}
+
+#top{
+  text-align: center;
+  background-color: #d6d3c4 !important;
+}
+
+#mainNav, footer{
+  background-color: #432f21;
+}
+
+#contact{
+  text-align: center;
+}
+
+.btn{
+  background-color:#432f21;
+}
+
+i{
+  color:#ca171b;
 }
 
 #aboutImg{
@@ -48,6 +69,10 @@ section {
     transform:translatZ(0) scale(1.20);
 }
 
+#aboutCon{
+  background-color: #dfDed4;
+}
+
 .img-portfolio {
     width: 400px;
     border: 0 none;
@@ -59,17 +84,26 @@ section {
   visibility: hidden;
   text-align: center;
   margin-top: 130px;
+  margin-left: 70px;
   background: rgba(0, 0, 0, .85);
   width: 400px;
 }
 
-
 .portfolio-entry:hover .overlay {
   visibility: visible;
   color: white;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color:  #432f21;
+  text-align: center;
 }
 
 .portfolio-entry{
   text-align: center;
+}
+
+.port-row {
+  margin-bottom: 60px;
+}
+
+#portfolio{
+  background-color: #d6d3c4 !important;
 }
