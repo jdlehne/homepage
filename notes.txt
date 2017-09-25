@@ -1,2 +1,56 @@
 node_modules
 notes.txt
+
+<!--Carousel Start-->
+<div class="row">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="overlay">
+          <span class="title">
+        <h4 class ="reference-title">Another Online Adventure</h4>
+      <p class="lead2">Mix up of classic text based games and a MMORPG. HTML, CSS, JavaScript and Firebase to store all user and game data.</p>
+    </span>
+        </div>
+        <a target="_blank" href="https://eodchop.github.io/AoA/">
+      <img class = "img-portfolio img-responsive" src="./img/aoa.jpg">
+    </a>
+      </div>
+
+      <div class="carousel-item">
+        <div class="overlay">
+          <span class="title">
+        <h4 class ="reference-title">Crystal Counter</h4>
+      <p class="lead2">Each crystal contain randomly generated values, solve the math to match the number. HTML, CSS, JavaScript</p>
+    </span>
+        </div>
+        <a target="_blank" href="https://jdlehne.github.io/Crystal-Counter.io/index.html">
+      <img class = "img-portfolio img-responsive" src="./img/crystal.jpg">
+    </a>
+      </div>
+
+      <div class="carousel-item">
+        <div class="overlay">
+          <span class="title">
+        <h4 class ="reference-title">Trains On Time</h4>
+      <p class="lead2">Description/languages used</p>
+    </span>
+        </div>
+        <a target="_blank" href="https://jdlehne.github.io/Train-Scheduler/">
+      <img class = "img-portfolio img-responsive" src="./img/tot.png">
+    </a>
+      </div>
+    </div>
+
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+  </div>
+
+</div>
+</div>

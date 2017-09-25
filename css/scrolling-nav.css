@@ -92,6 +92,12 @@ i{
     overflow: hidden;
 }
 
+img-fluid{
+  width:400px;
+  border: 0 none;
+  overflow: hidden;
+}
+
 .lead2{
   font-size: 1em;
 }
