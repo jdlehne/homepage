@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--devicon-->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 
 </head>
 
@@ -108,7 +108,7 @@
       </div>
     </div>
   </section>
-  <!---------------------------------------------------Portfolio Page------------------------->
+  <!--===================-Portfolio Page=======================--->
   <section id="portfolio" class="bg-light">
     <div class="container" id="portCon">
 
@@ -155,7 +155,7 @@
             <div class="overlay">
               <span class="title">
             <h4 class ="reference-title">Trains On Time</h4>
-          <p class="lead2">Description/languages used</p>
+          <p class="lead2">Using Firebase as a database and moment.js, arrival/departure times are updated in real time</p>
         </span>
             </div>
             <a target="_blank" href="https://jdlehne.github.io/Train-Scheduler/">
@@ -168,8 +168,8 @@
           <div class="portfolio-entry">
             <div class="overlay">
               <span class="title">
-            <h4 class ="reference-title">NAME of PROJECT</h4>
-          <p class="lead2">Description/languages used</p>
+            <h4 class ="reference-title">Decpeticon Hangman</h4>
+          <p class="lead2">Page randomly selects and hides a character from an array, page updates dynamically on letter guess using HTML/CSS/Javascript</p>
         </span>
             </div>
             <a target="_blank" href="https://jdlehne.github.io/Hangman-Game.io/">
@@ -184,8 +184,8 @@
           <div class="portfolio-entry">
             <div class="overlay">
               <span class="title">
-            <h4 class ="reference-title">NAME of PROJECT</h4>
-          <p class="lead2">Description/languages used</p>
+            <h4 class ="reference-title">GoT RPG</h4>
+          <p class="lead2">User chooses a character who's stats are stored in an array, "Health" and "damage dynamically to reflect battle outcome"</p>
         </span>
             </div>
             <a target="_blank" href="https://jdlehne.github.io/rpg/index.html">
@@ -198,8 +198,8 @@
           <div class="portfolio-entry">
             <div class="overlay">
               <span class="title">
-            <h4 class ="reference-title">NAME of PROJECT</h4>
-          <p class="lead2">Description/languages used</p>
+            <h4 class ="reference-title">Robot Trivia</h4>
+          <p class="lead2">HTML/CSS/Javascript to track users score and check them against choices in an array</p>
         </span>
             </div>
             <a target="_blank" href="https://jdlehne.github.io/Trivia-Game/">
@@ -211,63 +211,70 @@
     </div>
     <!--close port row-->
 
+
     <!--Carousel Start-->
-    <div class="row">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <div class="portfolio-entry">
-              <div class="overlay">
-                <span class="title">
-              <h4 class ="reference-title">NAME of PROJECT</h4>
-            <p class="lead2">Description/languages used</p>
-          </span>
+    <div class="container" id="carouselContainer">
+      <div class="row">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+
+            <div class="carousel-item active">
+              <div class="portfolio-entry">
+                <div class="overlay2">
+                  <span class="title">
+          <h4 class ="reference-title">NAME of PROJECT</h4>
+        <p class="lead2">Description/languages used</p>
+      </span>
+                </div>
+                <a target="_blank" href="">
+        <img class = "img-car img-responsive" src="./img/rpg.png">
+      </a>
               </div>
-              <a target="_blank" href="https://jdlehne.github.io/rpg/index.html">
-            <img class = "img-portfolio img-responsive" src="./img/rpg.png">
-          </a>
+            </div>
+
+            <div class="carousel-item">
+              <div class="portfolio-entry">
+              <div class="overlay2">
+                <span class="title">
+        <h4 class ="reference-title">Crystal Counter</h4>
+      <p class="lead2">Each crystal contain randomly generated values, solve the math to match the number. HTML, CSS, JavaScript</p>
+    </span>
+              </div>
+              <a target="_blank" href="">
+      <img class = "img-car img-responsive" src="./img/crystal.jpg">
+    </a>
             </div>
           </div>
 
-          <div class="carousel-item">
-            <div class="overlay">
-              <span class="title">
-            <h4 class ="reference-title">Crystal Counter</h4>
-          <p class="lead2">Each crystal contain randomly generated values, solve the math to match the number. HTML, CSS, JavaScript</p>
-        </span>
+            <div class="carousel-item">
+              <div class="portfolio-entry">
+              <div class="overlay2">
+                <span class="title">
+        <h4 class ="reference-title">Trains On Time</h4>
+      <p class="lead2">Description/languages used</p>
+    </span>
+              </div>
+              <a target="_blank" href="">
+      <img class = "img-car img-responsive" src="./img/tot.png">
+    </a>
             </div>
-            <a target="_blank" href="https://jdlehne.github.io/Crystal-Counter.io/index.html">
-          <img class = "img-portfolio img-responsive" src="./img/crystal.jpg">
-        </a>
           </div>
 
-          <div class="carousel-item">
-            <div class="overlay">
-              <span class="title">
-            <h4 class ="reference-title">Trains On Time</h4>
-          <p class="lead2">Description/languages used</p>
-        </span>
-            </div>
-            <a target="_blank" href="https://jdlehne.github.io/Train-Scheduler/">
-          <img class = "img-portfolio img-responsive" src="./img/tot.png">
-        </a>
-          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
         </div>
-
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
       </div>
+    </div>
 
-    </div>
-    </div>
     <!--close port container-->
   </section>
+
 
   <!--Contact Section-->
   <section id="contact">
@@ -305,7 +312,7 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom JavaScript for this theme -->
-  <script src="js/scrolling-nav.js"></script>
+  <script src="js/main.js"></script>
 
 </body>
 
