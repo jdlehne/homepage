@@ -183,3 +183,22 @@ img-fluid {
 .carousel-inner>.item>img {
   margin: 0 auto;
 }
+
+
+@media screen and (max-width:640px) {
+
+  .overlay{
+    margin-left:40px;
+  }
+
+  .overlay2{
+    margin-top: 25px;
+    margin-left: 0px;
+    width:100%;
+  }
+
+  .img-portfolio{
+    margin-bottom: 20px;
+  }
+
+}
