@@ -189,15 +189,14 @@ img-fluid {
 
   .overlay{
     margin-left:0px;
-  }
-
-  .overlay2{
-    margin-top: 25px;
-    margin-left: 0px;
     width:100%;
   }
 
-
+  .overlay2{
+    margin-top: 0px;
+    margin-left: 0px;
+    width:100%;
+  }
 
   .img-portfolio {
     width: 100%;
@@ -205,6 +204,9 @@ img-fluid {
     border: 0 none;
     overflow: hidden;
     margin-bottom: 20px;
+  }
+  #portCon{
+    width:100%;
   }
 
 }
