@@ -188,7 +188,7 @@ img-fluid {
 @media screen and (max-width:640px) {
 
   .overlay{
-    margin-left:40px;
+    margin-left:0px;
   }
 
   .overlay2{
@@ -197,7 +197,13 @@ img-fluid {
     width:100%;
   }
 
-  .img-portfolio{
+
+
+  .img-portfolio {
+    width: 100%;
+    height: 210px;
+    border: 0 none;
+    overflow: hidden;
     margin-bottom: 20px;
   }
 
