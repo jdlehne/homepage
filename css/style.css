@@ -127,10 +127,10 @@ img-fluid {
   position: absolute;
   visibility: hidden;
   text-align: center;
-  margin-top: 178px;
-  margin-left: 285px;
+  margin-top: 316px;
+  margin-left: 139px;
   background: rgba(0, 0, 0, .85);
-  width: 570px;
+  width: 75%;
 }
 
 .portfolio-entry:hover .overlay2 {
@@ -166,22 +166,6 @@ img-fluid {
 
 #portfolio {
   background-color: #d6d3c4 !important;
-}
-
-#carouselContainer {
-  text-align: center;
-  margin: 0 auto;
-}
-
-.img-car {
-  width: 50%;
-  height: 50%;
-  border: 0 none;
-  overflow: hidden;
-}
-
-.carousel-inner>.item>img {
-  margin: 0 auto;
 }
 
 
