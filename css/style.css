@@ -162,6 +162,11 @@ img-fluid {
   clear:both;
 }
 
+.fa{
+  margin-left:15px;
+}
+
+
 
 /*--------------------------------------*/
 .view-first img {
