@@ -54,3 +54,42 @@ notes.txt
 
 </div>
 </div>
+
+
+
+
+
+<div class="main">
+  <div class="view view-first">
+    <img src="./img/scrape.png" />
+    <div class="mask">
+      <h2>Hover Style #1</h2>
+      <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+      <a href="#" class="info">Read More</a>
+    </div>
+  </div>
+  <div class="view view-first">
+    <img src="./img/scrape.png" />
+    <div class="mask">
+      <h2>Hover Style #1</h2>
+      <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+      <a href="#" class="info">Read More</a>
+    </div>
+  </div>
+  <div class="view view-first">
+    <img src="./img/scrape.png" />
+    <div class="mask">
+      <h2>Hover Style #1</h2>
+      <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+      <a href="#" class="info">Read More</a>
+    </div>
+  </div>
+  <div class="view view-first">
+    <img src="./img/scrape.png" />
+    <div class="mask">
+      <h2>Hover Style #1</h2>
+      <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+      <a href="#" class="info">Read More</a>
+    </div>
+  </div>
+</div>
