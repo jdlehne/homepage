@@ -96,25 +96,33 @@ notes.txt
 
 
 diff nav
-<nav class="navbar navbar-toggleable-md navbar-dark navbar-fixed-top" id="mainNav">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  <a class="navbar-brand js-scroll-trigger" href="mailto:jdlehne@gmail.com">Josh Lehne</a>
-  <div class="collapse navbar-collapse" id="navbarResponsive">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-      </li>
-    </ul>
+<!--<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="mailto:jdlehne@gmail.com">Josh Lehne</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="nav navbar-nav navbar-center">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a target="_blank" href="https://www.facebook.com/josh.lehne.7">  <i class="fa fa-2x fa-facebook-square"></i></a></li>
+        <li><a target="_blank" href="https://github.com/jdlehne"><i class="fa fa-2x fa-github"></i></a></li>
+        <li><a target="_blank" href="https://www.linkedin.com/in/josh-lehne">  <i class="fa fa-2x fa-linkedin-square"></i></a></li>
+        <li><a target="_blank" href="https://stackoverflow.com/users/8083055/josh-lehne">  <i class="fa fa-2x fa-stack-overflow"></i></a></li>
+      </ul>
+    </div>
   </div>
-</nav>
+</nav>-->
 
 
 <!--<section id="portfolio" class="bg-light">
