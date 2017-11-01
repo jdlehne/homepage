@@ -91,40 +91,6 @@ i {
 }
 
 
-You might try to leverage the nth-child(number) selector to delay the animation, like so:
-
-i#iconTop {
- position: relative;
- margin-left: 0%;
- margin: 1em;
- animation: slide 4s 1;
- width:100%;
- /* Fix the elements being visible before the animation */
- opacity: 0;
- /* After the animation remain visible */
- -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
- animation-fill-mode: forwards;
-}
-
-i.iconTop:nth-child(1) {
- -webkit-animation-delay: 0;
- animation-delay: 0;
-}
-
-i.iconTop:nth-child(2) {
- -webkit-animation-delay: 1s;
- animation-delay: 1s;
-}
-
-i.iconTop:nth-child(3) {
- -webkit-animation-delay: 2s;
- animation-delay: 2s;
-}
-
-@keyframes slide {
-from { right: -150%; opacity: 0;}
-to { right: 0%; opacity: 1; }
-}
 
 /*============================*/
 
