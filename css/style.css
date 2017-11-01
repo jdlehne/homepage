@@ -154,7 +154,7 @@ img-fluid {
     color: #432f21;
 }
 
-#portfolio {
+#contact, #skills {
   background-color: #d6d3c4 !important;
 }
 
@@ -164,6 +164,23 @@ img-fluid {
 
 .fa{
   margin-left:15px;
+}
+
+
+/* ============   SKILLS ==============*/
+
+#frontList, #backList {
+  text-align: left;
+  list-style: none;
+}
+
+#frontListTop, #backListTop{
+  font-weight: bold;
+
+}
+
+#skillTop{
+  margin-left: 35px;
 }
 
 
