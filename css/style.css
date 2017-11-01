@@ -8,11 +8,11 @@ header {
 }
 
 h1{
-  font-weight: 800;
+  font-weight: 800 !important;
 }
 
 h3{
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 
 @media (min-width: 992px) {
