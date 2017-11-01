@@ -13,6 +13,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--devicon-->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <!-- font -->
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
   <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -42,10 +44,8 @@
         </li>
       </ul>
       <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-        <li><a target="_blank" href="https://www.facebook.com/josh.lehne.7">  <i class="fa fa-2x fa-facebook-square"></i></a></li>
         <li><a target="_blank" href="https://github.com/jdlehne"><i class="fa fa-2x fa-github"></i></a></li>
         <li><a target="_blank" href="https://www.linkedin.com/in/josh-lehne">  <i class="fa fa-2x fa-linkedin-square"></i></a></li>
-        <li><a target="_blank" href="https://stackoverflow.com/users/8083055/josh-lehne?tab=profile">  <i class="fa fa-2x fa-stack-overflow"></i></a></li>
       </ul>
     </div>
   </nav>
@@ -54,11 +54,13 @@
   <header id="top" class="header">
     <div class="text-vertical-center">
       <hr>
-      <h2><i class="devicon-git-plain"></i>
-                <i class="devicon-github-plain"> </i>
-                <i class="devicon-gitlab-plain"> </i>
-                <i class="devicon-jquery-plain"> </i>
-                <i class="devicon-mongodb-plain"> </i></h2>
+      <div id="iconTop">
+        <i class="devicon-git-plain"></i>
+        <i class="devicon-github-plain"></i>
+        <i class="devicon-gitlab-plain"></i>
+        <i class="devicon-jquery-plain"></i>
+        <i class="devicon-mongodb-plain"></i>
+      </div>
       <hr>
       <div id="nameHold">
         <br>
@@ -68,12 +70,14 @@
         <br>
       </div>
       <hr>
-      <h2><i class="devicon-html5-plain"></i>
-                <i class="devicon-atom-original"> </i>
-                <i class="devicon-css3-plain"> </i>
-                <i class="devicon-nodejs-plain"> </i>
-                <i class="devicon-react-original"> </i>
-                <i class="devicon-express-original"> </i></h2>
+      <div id="iconBottom">
+        <i class="devicon-html5-plain"></i>
+        <i class="devicon-atom-original"></i>
+        <i class="devicon-css3-plain"></i>
+        <i class="devicon-nodejs-plain"></i>
+        <i class="devicon-react-original"></i>
+        <i class="devicon-express-original"></i>
+      </div>
       <hr>
       <br>
 
@@ -107,8 +111,8 @@
         <div class="col-md-12">
           <hr>
           <h2>Where I've Been</h2>
-          <p class="lead">Originally from Moline Illinois I moved to KCMO after high school to attend the Kansas City Art Institute, I moved onto the University of Missouri to finish a degree in Art Thoery and Criticism. After School I settled into the service industry where I managed
-            a local restaurant and wine bar outside the plaza in midtown Kansas City. Spending freetime at home and school learning and writing code for various kinds of applications, my previous work and academic experience make me highly
+          <p class="lead">Originally from Moline Illinois I moved to KCMO after high school to attend the Kansas City Art Institute, I moved onto the University of Missouri to finish a degree in Art Thoery and Criticism. After School I settled into the service industry
+            where I managed a local restaurant and wine bar outside the plaza in midtown Kansas City. Spending freetime at home and school learning and writing code for various kinds of applications, my previous work and academic experience make me highly
             adaptable in all kinds of environments, proficient in working with front end, back end and database technologies. Using a strong foundation in basic programming languages makes me quick to learn new tech as they are rapidly evolving.</p>
         </div>
       </div>
@@ -127,38 +131,38 @@
           <p>Having a foundation in art and design I try to apply that to development. I enjoy trying to apply these ideals through the development process from front to back end with the skills I've acquired along the way:</p>
         </div>
 
-          <div class="col-md-3">
-            <h5 id="skillTop">What I do</h5>
-            <hr class="small">
-            <ul id="frontList">
-              <li id="frontListTop">Front End</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>Javascript</li>
-              <li>jQuery</li>
-              <li>React</li>
-              <li>Bootstrap</li>
-            </ul>
-          </div>
-            <!--<hr class="small">-->
-            <div class="col-md-3">
-              <br>
-              <hr class="small">
-            <ul id="backList">
-              <li id="backListTop">Back End</li>
-              <li>NodeJS</li>
-              <li>Express</li>
-              <li>API's</li>
-              <li>mySQL</li>
-              <li>MongoDB</li>
-              <li>Mongoose</li>
-              <li>Firebase</li>
-              <li>Git VC/Bash</li>
-            </ul>
-          </div>
+        <div class="col-md-3">
+          <h5 id="skillTop">What I do</h5>
           <hr class="small">
+          <ul id="frontList">
+            <li id="frontListTop">Front End</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Javascript</li>
+            <li>jQuery</li>
+            <li>React</li>
+            <li>Bootstrap</li>
+          </ul>
         </div>
+        <!--<hr class="small">-->
+        <div class="col-md-3">
+          <br>
+          <hr class="small">
+          <ul id="backList">
+            <li id="backListTop">Back End</li>
+            <li>NodeJS</li>
+            <li>Express</li>
+            <li>API's</li>
+            <li>mySQL</li>
+            <li>MongoDB</li>
+            <li>Mongoose</li>
+            <li>Firebase</li>
+            <li>Git VC/Bash</li>
+          </ul>
+        </div>
+        <hr class="small">
       </div>
+    </div>
   </section>
 
   <!--===================-Portfolio Page=======================-->
@@ -304,7 +308,7 @@
       <div class="row">
         <div class="col-lg-8 mx-auto">
           <h3>Connect With Me</h3>
-          <p>If you'd like any additonal information or would like to see my resumé please contact me at the email below.  Code samples are available to view on my github (link below).</p>
+          <p>If you'd like any additonal information or would like to see my resumé please contact me at the email below. Code samples are available to view on my github (link below).</p>
           <hr>
           <h4>Josh Lehne</h4>
           <p class="KC-MO">KC-MO</p>
