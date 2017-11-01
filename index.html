@@ -14,8 +14,11 @@
   <!--devicon-->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <!-- font -->
-  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+  <!--<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">-->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700" rel="stylesheet">
+  <link href="css/spinstyle.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <script src="js/modernizr.custom.72111.js"></script>
 
 </head>
 
@@ -31,7 +34,7 @@
     <div class="navbar-collapse collapse" id="navbarResponsive">
       <ul class="navbar-nav mx-auto w-100 justify-content-center">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
@@ -43,10 +46,10 @@
           <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
         </li>
       </ul>
-      <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+      <!--<ul class="nav navbar-nav ml-auto w-100 justify-content-end">
         <li><a target="_blank" href="https://github.com/jdlehne"><i class="fa fa-2x fa-github"></i></a></li>
         <li><a target="_blank" href="https://www.linkedin.com/in/josh-lehne">  <i class="fa fa-2x fa-linkedin-square"></i></a></li>
-      </ul>
+      </ul>-->
     </div>
   </nav>
 
@@ -85,263 +88,304 @@
     </div>
   </header>
 
-
   <section id="about">
     <div class="container" id="aboutCon">
-
       <div class="row">
+        <div class="col-md-3">
+          <div id="aboutMeP">
+          <h1>About</h1>
+          <h1>Me</h1>
+        </div>
+        </div>
+        <div class="col-md-6">
+          <div class="rw-wrapper">
+          <h4 class="rw-sentence">
+            <span>Hi, I'm Josh, and I'm </span>
+            <div class="rw-words rw-words-1">
+            <span>a Father</span>
+						<span>a Husband</span>
+						<span>a Musician</span>
+						<span>an Artist</span>
+            <span>an Adventurer</span>
+            <span>a Web Developer</span>
+					</div>
+        </h4>
+      </div>
+      <div>
+          <p>Originally from Moline Illinois I moved to Kansas City to attend the Kansas City Art
+            Institute, moving onto the University of Missouri to finish a degree in Art Thoery and Criticism.</p>
+          <p>After School I settled into the service industry  where I managed a local restaurant and wine bar
+            outside the plaza in midtown Kansas City. Spending freetime at home and school learning and writing
+            code for various kinds of applications, my previous work and academic experience make me highly
+            adaptable in all kinds of environments, proficient in working with front end, back end and database
+            technologies. Using a strong foundation in basic programming languages makes me quick to learn new
+            tech as they are rapidly evolving.</p>
+          </div>
+          <br>
+            <h3>See what I'm doing around the web</h3>
+            <div class="social_links">
+              <h1>
+              <a target="_blank" href="https://www.facebook.com/josh.lehne.7">  <i class="fa fa-facebook-square"></i></a>
+              <a target="_blank" href="https://github.com/jdlehne"><i class="fa fa-github">  </i></a>
+              <a target="_blank" href="https://www.linkedin.com/in/josh-lehne">  <i class="fa fa-linkedin-square"></i></a>
+              <a target="_blank" href="https://stackoverflow.com/users/8083055/josh-lehne?tab=profile">  <i class="fa fa-stack-overflow"></i></a></h1>
+            </div>
+        </div>
+
+      <!--<div class="row">
         <div class="col-md-12">
           <h2>Who Am I?</h2>
-          <p class="lead">Husband, Father, Musician, Artist, Adventurer, Tech Nerd</p>
-          <hr>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12 img-hover" id="aboutImg">
-          <img src="./img/idea3.jpg" alt="wedding day" class="img-circle img-responsive img-about img-hover">
-          <img src="./img/idea4.jpg" alt="family" class="img-circle img-responsive img-about">
-          <img src="./img/idea1.jpg" alt="devo" class="img-circle img-responsive img-about">
-          <img src="./img/idea2.jpg" alt="skydive" class="img-circle img-responsive img-about">
-          <img src="./img/idea5.jpg" alt="Paul Bocuse" class="img-circle img-responsive img-about">
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <hr>
-          <h2>Where I've Been</h2>
-          <p class="lead">Originally from Moline Illinois I moved to KCMO after high school to attend the Kansas City Art Institute, I moved onto the University of Missouri to finish a degree in Art Thoery and Criticism. After School I settled into the service industry
-            where I managed a local restaurant and wine bar outside the plaza in midtown Kansas City. Spending freetime at home and school learning and writing code for various kinds of applications, my previous work and academic experience make me highly
-            adaptable in all kinds of environments, proficient in working with front end, back end and database technologies. Using a strong foundation in basic programming languages makes me quick to learn new tech as they are rapidly evolving.</p>
-        </div>
+        <p class="lead">Husband, Father, Musician, Artist, Adventurer, Tech Nerd</p>
+        <hr>
       </div>
     </div>
-  </section>
 
-  <!--===================-Skills Page ========================-->
-
-  <section id="skills">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-4">
-          <h5>What I'm working with</h5>
-          <hr>
-          <p>Having a foundation in art and design I try to apply that to development. I enjoy trying to apply these ideals through the development process from front to back end with the skills I've acquired along the way:</p>
-        </div>
-
-        <div class="col-md-3">
-          <h5 id="skillTop">What I do</h5>
-          <hr class="small">
-          <ul id="frontList">
-            <li id="frontListTop">Front End</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript</li>
-            <li>jQuery</li>
-            <li>React</li>
-            <li>Bootstrap</li>
-          </ul>
-        </div>
-        <!--<hr class="small">-->
-        <div class="col-md-3">
-          <br>
-          <hr class="small">
-          <ul id="backList">
-            <li id="backListTop">Back End</li>
-            <li>NodeJS</li>
-            <li>Express</li>
-            <li>API's</li>
-            <li>mySQL</li>
-            <li>MongoDB</li>
-            <li>Mongoose</li>
-            <li>Firebase</li>
-            <li>Git VC/Bash</li>
-          </ul>
-        </div>
-        <hr class="small">
+    <div class="row">
+      <div class="col-md-12 img-hover" id="aboutImg">
+        <img src="./img/idea3.jpg" alt="wedding day" class="img-circle img-responsive img-about img-hover">
+        <img src="./img/idea4.jpg" alt="family" class="img-circle img-responsive img-about">
+        <img src="./img/idea1.jpg" alt="devo" class="img-circle img-responsive img-about">
+        <img src="./img/idea2.jpg" alt="skydive" class="img-circle img-responsive img-about">
+        <img src="./img/idea5.jpg" alt="Paul Bocuse" class="img-circle img-responsive img-about">
       </div>
     </div>
-  </section>
 
-  <!--===================-Portfolio Page=======================-->
+    <div class="row">
+      <div class="col-md-12">
+        <hr>
+        <h2>Where I've Been</h2>
+        <p class="lead">Originally from Moline Illinois I moved to KCMO after high school to attend the Kansas City Art Institute, I moved onto the University of Missouri to finish a degree in Art Thoery and Criticism. After School I settled into the service industry
+          where I managed a local restaurant and wine bar outside the plaza in midtown Kansas City. Spending freetime at home and school learning and writing code for various kinds of applications, my previous work and academic experience make me highly
+          adaptable in all kinds of environments, proficient in working with front end, back end and database technologies. Using a strong foundation in basic programming languages makes me quick to learn new tech as they are rapidly evolving.</p>
+      </div>
+    </div>-->
+    </div>
+    <!--closes about section container-->
+    </section>
 
-  <section id="portfolio">
-    <div class="container">
+    <!--===================-Skills Page ========================-->
 
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 id="portTag">Portfolio Work</h2>
-          <br>
-          <h5>Hover over an image for a brief description, click on the image to link to the project</h5>
+    <section id="skills">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4">
+            <h5>What I'm working with</h5>
+            <hr>
+            <p>Having a foundation in art and design I try to apply that to development. I enjoy trying to apply these ideals through the development process from front to back end with the skills I've acquired along the way:</p>
+          </div>
+
+          <div class="col-md-3">
+            <h5 id="skillTop">What I do</h5>
+            <hr class="small">
+            <ul id="frontList">
+              <li id="frontListTop">Front End</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+              <li>React</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <!--<hr class="small">-->
+          <div class="col-md-3">
+            <br>
+            <hr class="small">
+            <ul id="backList">
+              <li id="backListTop">Back End</li>
+              <li>NodeJS</li>
+              <li>Express</li>
+              <li>API's</li>
+              <li>mySQL</li>
+              <li>MongoDB</li>
+              <li>Mongoose</li>
+              <li>Firebase</li>
+              <li>Git VC/Bash</li>
+            </ul>
+          </div>
           <hr class="small">
         </div>
       </div>
+    </section>
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="view view-first">
-            <img src="./img/aoa.jpg" class="portPic" alt="website screenshot" />
-            <div class="mask">
-              <h2>Another Online Adventure</h2>
-              <p>Mix up of classic text based games and a MMORPG. HTML, CSS, JavaScript and Firebase to store all user and game data.</p>
-              <a href="https://eodchop.github.io/AoA/" target="blank" class="info">Visit Site</a>
+    <!--===================-Portfolio Page=======================-->
+
+    <section id="portfolio">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 id="portTag">Portfolio Work</h2>
+            <br>
+            <h5>Hover over an image for a brief description, click on the image to link to the project</h5>
+            <hr class="small">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="view view-first">
+              <img src="./img/aoa.jpg" class="portPic" alt="website screenshot" />
+              <div class="mask">
+                <h2>Another Online Adventure</h2>
+                <p>Mix up of classic text based games and a MMORPG. HTML, CSS, JavaScript and Firebase to store all user and game data.</p>
+                <a href="https://eodchop.github.io/AoA/" target="blank" class="info">Visit Site</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="view view-first">
+              <img src="./img/srnd.jpg" class="portPic" alt="website screenshot" />
+              <div class="mask">
+                <h2>Shake Rattle and Drink </h2>
+                <p>Cocktail Recipe Database - Design meets MVC standards - built with Node.js, mySql/Sequelize, Express, Bootstrap, Javascript updates our custom API with GET and POST requests</p>
+                <a href="https://guarded-ravine-28997.herokuapp.com/" target="blank" class="info">Visit Site</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="view view-first">
-            <img src="./img/srnd.jpg" class="portPic" alt="website screenshot" />
-            <div class="mask">
-              <h2>Shake Rattle and Drink </h2>
-              <p>Cocktail Recipe Database - Design meets MVC standards - built with Node.js, mySql/Sequelize, Express, Bootstrap, Javascript updates our custom API with GET and POST requests</p>
-              <a href="https://guarded-ravine-28997.herokuapp.com/" target="blank" class="info">Visit Site</a>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="view view-first">
+              <img src="./img/bamazon.png" class="portPic" alt="website screenshot" />
+              <div class="mask">
+                <h2>Bamazon</h2>
+                <p>Back end Node application tracks inventory, stock, sales through mySQL databse connection. See the code here at <a target="blank" href="https://github.com/jdlehne/bamazon">Github</a> for screenshots and functionality explanation</p>
+                <a href="https://github.com/jdlehne/bamazon" target="blank" class="info">See Code</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="view view-first">
+              <img src="./img/scrape.png" class="portPic" alt="website screenshot" />
+              <div class="mask">
+                <h2>GS News Scraper</h2>
+                <p>Website that scrapes articles from news site and allows user to save and take notes, stores articles in databse using MongoDB and mongoose</p>
+                <a href="https://stormy-anchorage-13838.herokuapp.com/" target="blank" class="info">Visit Site</a>
+              </div>
             </div>
           </div>
         </div>
+
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="view view-first">
+              <img src="./img/tot.png" class="portPic" alt="website screenshot">
+              <div class="mask">
+                <h2>Trains On Time</h2>
+                <p>Using Firebase as a database and moment.js, arrival/departure times are updated in real time. Users can add their own information to recieve real time updates</p>
+                <a target="_blank" href="https://jdlehne.github.io/Train-Scheduler/" class="info">Visit Site</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="view view-first">
+              <img src="./img/liri.png" class="portPic" alt="website screenshot">
+              <div class="mask">
+                <h2>LIRI node app</h2>
+                <p>Back end Node application that user can use to get information from various databases on movies, songs and tweets. Returned information is saved to text file, code at <a target="blank" href="https://github.com/jdlehne/liri-node-app">Github</a>.</p>
+                <a target="_blank" href="https://github.com/jdlehne/liri-node-app" class="info">See Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="view view-first">
+              <img src="./img/crystal.jpg" class="portPic" alt="website screenshot">
+              <div class="mask">
+                <h2>Crystal Counter</h2>
+                <p>Each crystal contains randomly generated values each round, User must match the number without going over. HTML, CSS, JavaScript</p>
+                <a target="blank" href="https://jdlehne.github.io/Crystal-Counter.io/index.html" class="info">Play Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="view view-first">
+              <img src="./img/rpg.png" class="portPic" alt="website screenshot">
+              <div class="mask">
+                <h2>GoT RPG</h2>
+                <p>User chooses a character who's stats are stored in an array, "Health" and "damage dynamically to reflect battle outcome"</p>
+                <a target="blank" href="https://jdlehne.github.io/rpg/index.html" class="info">Play Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="view view-first">
+              <img src="./img/trivia.png" class="portPic" alt="website screenshot">
+              <div class="mask">
+                <h2>Robot Trivia</h2>
+                <p>Quick robot trivia game, all client side Javascript for functionality, where questions and answers are pulled from an array and score is tracked.</p>
+                <a target="blank" href="https://jdlehne.github.io/Trivia-Game/" class="info">Play Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="view view-first">
+              <img src="./img/trans.png" class="portPic" alt="website screenshot">
+              <div class="mask">
+                <h2>Decepticon Hangman</h2>
+                <p>Page randomly selects and hides a character from an array, page updates dynamically on letter guess using HTML/CSS/Javascript</p>
+                <a target="_blank" href="https://jdlehne.github.io/Hangman-Game.io/" class="info">Play Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <!--close port row-->
       </div>
+    </section>
 
 
-      <div class="row">
-        <div class="col-md-6">
-          <div class="view view-first">
-            <img src="./img/bamazon.png" class="portPic" alt="website screenshot" />
-            <div class="mask">
-              <h2>Bamazon</h2>
-              <p>Back end Node application tracks inventory, stock, sales through mySQL databse connection. See the code here at <a target="blank" href="https://github.com/jdlehne/bamazon">Github</a> for screenshots and functionality explanation</p>
-              <a href="https://github.com/jdlehne/bamazon" target="blank" class="info">See Code</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="view view-first">
-            <img src="./img/scrape.png" class="portPic" alt="website screenshot" />
-            <div class="mask">
-              <h2>GS News Scraper</h2>
-              <p>Website that scrapes articles from news site and allows user to save and take notes, stores articles in databse using MongoDB and mongoose</p>
-              <a href="https://stormy-anchorage-13838.herokuapp.com/" target="blank" class="info">Visit Site</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="view view-first">
-            <img src="./img/tot.png" class="portPic" alt="website screenshot">
-            <div class="mask">
-              <h2>Trains On Time</h2>
-              <p>Using Firebase as a database and moment.js, arrival/departure times are updated in real time. Users can add their own information to recieve real time updates</p>
-              <a target="_blank" href="https://jdlehne.github.io/Train-Scheduler/" class="info">Visit Site</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="view view-first">
-            <img src="./img/liri.png" class="portPic" alt="website screenshot">
-            <div class="mask">
-              <h2>LIRI node app</h2>
-              <p>Back end Node application that user can use to get information from various databases on movies, songs and tweets. Returned information is saved to text file, code at <a target="blank" href="https://github.com/jdlehne/liri-node-app">Github</a>.</p>
-              <a target="_blank" href="https://github.com/jdlehne/liri-node-app" class="info">See Code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="view view-first">
-            <img src="./img/crystal.jpg" class="portPic" alt="website screenshot">
-            <div class="mask">
-              <h2>Crystal Counter</h2>
-              <p>Each crystal contains randomly generated values each round, User must match the number without going over. HTML, CSS, JavaScript</p>
-              <a target="blank" href="https://jdlehne.github.io/Crystal-Counter.io/index.html" class="info">Play Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="view view-first">
-            <img src="./img/rpg.png" class="portPic" alt="website screenshot">
-            <div class="mask">
-              <h2>GoT RPG</h2>
-              <p>User chooses a character who's stats are stored in an array, "Health" and "damage dynamically to reflect battle outcome"</p>
-              <a target="blank" href="https://jdlehne.github.io/rpg/index.html" class="info">Play Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="view view-first">
-            <img src="./img/trivia.png" class="portPic" alt="website screenshot">
-            <div class="mask">
-              <h2>Robot Trivia</h2>
-              <p>Quick robot trivia game, all client side Javascript for functionality, where questions and answers are pulled from an array and score is tracked.</p>
-              <a target="blank" href="https://jdlehne.github.io/Trivia-Game/" class="info">Play Now</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="view view-first">
-            <img src="./img/trans.png" class="portPic" alt="website screenshot">
-            <div class="mask">
-              <h2>Decepticon Hangman</h2>
-              <p>Page randomly selects and hides a character from an array, page updates dynamically on letter guess using HTML/CSS/Javascript</p>
-              <a target="_blank" href="https://jdlehne.github.io/Hangman-Game.io/" class="info">Play Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="clearfix"></div>
-      <!--close port row-->
-    </div>
-  </section>
-
-
-  <!--Contact Section-->
-  <section id="contact">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
-          <h3>Connect With Me</h3>
-          <p>If you'd like any additonal information or would like to see my resumé please contact me at the email below. Code samples are available to view on my github (link below).</p>
-          <hr>
-          <h4>Josh Lehne</h4>
-          <p class="KC-MO">KC-MO</p>
-          <div class="social links">
-            <h1><p class="lead"><a href="mailto:jdlehne@gmail.com">jdlehne@gmail.com</a></p>
+    <!--Contact Section-->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h3>Connect With Me</h3>
+            <p>If you'd like any additonal information or would like to see my resumé please contact me at the email below. Code samples are available to view on my github (link below).</p>
+            <hr>
+            <h4>Josh Lehne</h4>
+            <p class="KC-MO">KC-MO</p>
+            <div class="social links">
+              <h1><p class="lead"><a href="mailto:jdlehne@gmail.com">jdlehne@gmail.com</a></p>
             <a target="_blank" href="https://www.facebook.com/josh.lehne.7">  <i class="fa fa-facebook-square"></i></a>
             <a target="_blank" href="https://github.com/jdlehne"><i class="fa fa-github">  </i></a>
             <a target="_blank" href="https://www.linkedin.com/in/josh-lehne">  <i class="fa fa-linkedin-square"></i></a>
             <a target="_blank" href="https://stackoverflow.com/users/8083055/josh-lehne?tab=profile">  <i class="fa fa-stack-overflow"></i></a></h1>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="py-5 ">
-    <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Josh Lehne 2017</p>
-    </div>
-    <!-- alt="website screenshot".container -->
-  </footer>
+    <!-- Footer -->
+    <footer class="py-5 ">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Josh Lehne 2017</p>
+      </div>
+      <!-- alt="website screenshot".container -->
+    </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/popper/popper.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom JavaScript for this theme -->
-  <script src="js/main.js"></script>
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/main.js"></script>
 
 </body>
 

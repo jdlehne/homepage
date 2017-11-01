@@ -1,6 +1,6 @@
 body {
   background-color: #ffffff;
-  font-family: Roboto;
+  font-family: Oswald;
 }
 
 header {
@@ -51,6 +51,10 @@ hr {
 
 .navbar-brand{
   margin-left:100px;
+}
+
+.navbar{
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.4)
 }
 
 ul.justify-content-end{
@@ -126,12 +130,22 @@ i {
   transform: translatZ(0) scale(1.20);
 }
 
-/*#about{
+#about{
   background-image: url("../img/bgAbout.png");
   height:100%;
    background-repeat: no-repeat;
    background-size: cover;
-}*/
+}
+
+#aboutMeP{
+  margin-top:305px;
+}
+
+.social_links{
+  text-align: center;
+  margin-top: 21px;
+margin-bottom: 20px;
+}
 
 .img-portfolio {
   width: 400px;
