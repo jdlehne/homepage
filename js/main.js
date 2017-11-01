@@ -27,3 +27,7 @@
   });
 
 })(jQuery); // End of use strict
+
+$("#toggle-btn").click(function(){
+          $("#card-4").flip('toggle');
+        });

@@ -37,6 +37,7 @@ hr {
 
 #mainNav, footer {
   background-color: #432f21;
+  background-color: #4e4a41;
 }
 
 #contact {
@@ -49,7 +50,9 @@ hr {
 }
 
 i {
-  color: rgba(202, 23, 27, 0.75);
+  /*color: rgba(202, 23, 27, 0.75);*/
+  color:#7AC8bf;
+  color:#24ab9c;
 }
 
 #aboutImg {
@@ -199,6 +202,7 @@ img-fluid {
    opacity: 0;
    /*background-color: rgba(219,127,8, 0.7);*/
    background-color: rgba(202, 23, 27, 0.7);
+   background-color: rgba(36, 171, 156, 0.7);
    -webkit-transition: all 0.4s ease-in-out;
    -moz-transition: all 0.4s ease-in-out;
    -o-transition: all 0.4s ease-in-out;
@@ -325,10 +329,10 @@ img-fluid {
 .view p {
    font-family: Georgia, serif;
    font-style: italic;
-   font-size: 12px;
+   font-size: 15px;
    position: relative;
    color: #fff;
-   padding: 10px 20px 20px;
+   padding: 5px 20px 20px;
    text-align: center;
 }
 .view a.info {
