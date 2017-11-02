@@ -304,6 +304,11 @@ img-fluid {
   background-color: #d6d3c4 !important;
 }
 
+#contact p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
 .clearfix {
   clear: both;
 }
