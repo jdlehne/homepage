@@ -44,6 +44,13 @@ section {
   background-size: cover;
 }
 
+#contact{
+    background-image: url("../img/contact.jpeg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #mainNav, footer {
   background-color: #432f21;
   background-color: #4e4a41;
@@ -127,8 +134,7 @@ i {
 
 .social_links {
   text-align: center;
-  margin-top: 21px;
-  margin-bottom: 20px;
+
 }
 
 /* ============   SKILLS ==============*/
@@ -472,5 +478,9 @@ img-fluid {
   #aboutMeP {
     margin-top: 30px;
     margin-bottom: 20px;
+  }
+
+  #skillText{
+    margin-top: 20px;
   }
 }
