@@ -141,6 +141,14 @@ i {
   margin-top:305px;
 }
 
+#aboutWord{
+  color: #432f21;
+}
+
+#meWord{
+  color:#4e4a41;
+}
+
 .social_links{
   text-align: center;
   margin-top: 21px;
@@ -434,6 +442,11 @@ img-fluid {
   }
   #portCon{
     width:100%;
+  }
+
+  #aboutMeP{
+    margin-top:30px;
+    margin-bottom:20px;
   }
 
 }
