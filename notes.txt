@@ -276,3 +276,50 @@ diff nav
 
     </div>
 </section>-->
+
+
+.img-hover img {
+  -webkit-transition: all .3s ease;
+  /* Safari and Chrome */
+  -moz-transition: all .3s ease;
+  /* Firefox */
+  -o-transition: all .3s ease;
+  /* IE 9 */
+  -ms-transition: all .3s ease;
+  /* Opera */
+  transition: all .3s ease;
+}
+
+.img-hover img:hover {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.5);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.5);
+  /* Firefox */
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -o-transform: translatZ(0) scale(1.20);
+  /* Opera */
+  transform: translatZ(0) scale(1.20);
+}
+
+html5 - css3 - modern javascript (native, jQuery, angular, APIs) - php - cakephp - laravel - phonegap
+[robot]~ ---------------- DESIGN ----------------
+photoshop - illustrator - indesign - flash
+[robot]~ ---------------- OTHERS ----------------
+responsive - rest api - sass - git - gulp
+
+
+
+
+  function inViewport($el) {
+      var elH = $el.outerHeight(),
+          H   = $(window).height(),
+          r   = $el[0].getBoundingClientRect(), t=r.top, b=r.bottom;
+      return Math.max(0, t>0? Math.min(elH, H-t) : (b<H?b:H));
+  }
+
+  $(".float-up").inViewport(function(px){
+      if(px) $(this).addClass("triggerCSS3") ;
+  });
