@@ -37,7 +37,7 @@
 // });
 
 //var $animation_elements = $('.float-up');
-var $animation_elements = $('ul#frontList li');
+var $animation_elements = $('ul#frontList li') || $(".view view-first");
 
 var $window = $(window);
 

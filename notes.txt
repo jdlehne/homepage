@@ -336,3 +336,5 @@ responsive - rest api - sass - git - gulp
       <img src="./img/idea5.jpg" alt="Paul Bocuse" class="img-circle img-responsive img-about">
     </div>
   </div>
+
+    -webkit-filter: blur(3px);
