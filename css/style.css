@@ -300,10 +300,6 @@ img-fluid {
   color: #432f21;
 }
 
-#contact {
-  background-color: #d6d3c4 !important;
-}
-
 #contact p {
   font-size: 18px;
   font-weight: 600;
@@ -316,7 +312,6 @@ img-fluid {
 .fa {
   margin-left: 15px;
 }
-
 
 
 /*--------------------------------------*/
@@ -504,6 +499,7 @@ img-fluid {
 }
 
 #contact {
+  margin-top: -65px;
   clear: both;
 }
 
@@ -536,5 +532,10 @@ img-fluid {
 
   #skillText{
     margin-top: 20px;
+  }
+
+  #contact p {
+    color:#fff;
+    text-shadow: 2px 2px 2px black;
   }
 }
