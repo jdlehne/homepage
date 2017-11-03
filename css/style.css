@@ -464,7 +464,6 @@ img-fluid {
 }
 
 
-
 #iconBottom{
    -webkit-animation: fadein 6s;
    animation: 2s ease-out 0s 1 slideInFromLeft;
@@ -600,13 +599,21 @@ img-fluid {
     margin-top: 20px;
   }
 
-  #contact p {
+  #contact p, #contact h3 {
     color:#fff;
     text-shadow: 2px 2px 2px black;
   }
 
-  #nameHold{
+  #aboutBtn{
+    margin:0 auto;
+  }
+
+  #top{
     text-align: center;
+  }
+
+  h1.nameHold, h3.nameHold,  #iconTop, #iconBottom{
+    margin-left:0;
   }
 
   .navbar-brand {
