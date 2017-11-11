@@ -336,7 +336,7 @@ img-fluid {
 }
 /*======   Contact =======*/
 #contact{
-    background-image: url("../img/contact.jpeg");
+    background-image: url("../img/background.gif");
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -345,6 +345,16 @@ img-fluid {
 #contact {
   margin-top: -65px;
   clear: both;
+}
+
+form {
+  padding: 10px;
+    background-color: rgba(118, 105, 105, 0.7);
+    border-radius: 25px;
+    padding-top: 35px;
+}
+#contact p{
+      text-shadow: 1px 1px white
 }
 
 
