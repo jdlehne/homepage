@@ -500,22 +500,22 @@ form {
 
 
 #iconBottom{
-   -webkit-animation: fadein 6s;
-   animation: 2s ease-out 0s 1 slideInFromLeft;
+   -webkit-animation: fadein 3s;
+   /*animation: 2s ease-out 0s 1 slideInFromLeft;*/
 }
 
 #aboutBtn{
-  -webkit-animation: fadein 4s;
+  -webkit-animation: fadein 2s;
 }
 
 #headHold {
-   -webkit-animation: fadein 4s;
+   -webkit-animation: fadein 2s;
 
 }
 
 #iconTop{
-  -webkit-animation: fadein 2s;
-   animation: 1s ease-out 0s 1 slideInFromLeft;
+  -webkit-animation: fadein 1s;
+   /*animation: 1s ease-out 0s 1 slideInFromLeft;*/
 }
 
 
