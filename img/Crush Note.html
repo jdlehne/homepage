@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#000000">
+  <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <!--      Link to Material Icons        -->
+  <link href="./Crush Note_files/icon" rel="stylesheet">
+  <link rel="manifest" href="http://localhost:3000/manifest.json">
+  <link rel="shortcut icon" href="http://localhost:3000/favicon.ico">
+  <script src="./Crush Note_files/react-with-addons-0.13.3.min.js.download"></script>
+
+
+  <title>Crush Note</title>
+<style type="text/css">body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+</style><style type="text/css">.hud {
+  text-align: center;
+  height: 115px;
+  width: 100%;
+  background-color: #c8c7a1;
+  -webkit-box-shadow: 10px 10px 5px #b8b6b6;
+  box-shadow: 10px 0px 10px 5px #b8b6b6;
+  padding-left: 25px;
+  padding-top: 5px;
+  position: fixed;
+  bottom: 10px;
+}
+
+#user-buttons {
+  margin-left: 0 auto;
+  margin-right: 0 auto;
+}
+
+/*==== Opponent Side ====*/
+
+#opponent-side {
+  float: left;
+}
+
+#opponent_round_tokens {
+  padding: 10px;
+  border-style: inset;
+  border-width: 3px;
+}
+
+#opponent_score {
+  float: left;
+  margin: 0 auto;
+}
+
+/*==== User Side ===*/
+
+#player_name{
+  margin:0 auto;
+}
+
+#player-side {
+  float: right;
+}
+
+#user_round_tokens {
+  padding: 7px;
+  width: 210px;
+  border-style: outset;
+  border-width: 3px;
+  margin-right: 50px;
+}
+
+#round_score {
+  float: left;
+  margin: 0 auto;
+}
+
+.no-point, .round-won {
+  color: red;
+}
+
+.table-button {
+  font-size: 50px;
+}
+
+#cheat_table_div {
+  position: fixed;
+  left: 200px;
+  right: 50%;
+  top: 10%;
+  height: 250px;
+  width: 450px;
+  background-color: #d9ebe9;
+  border-style: inset;
+}
+</style><style type="text/css">#CardContainer {
+  background-color: #c8c7a1;
+  width: 150px;
+  height: 320px;
+  border: 1px solid #021a40;
+  padding: 10px;
+  display: inline-block;
+  text-align:center;
+  margin:10px;
+}
+
+#CardBackContainer {
+  background-color: #c8c7a1;
+  width: 200px;
+  height: 320px;
+  border: 1px solid #021a40;
+  display: inline-block;
+  text-align:center;
+  margin:10px;
+}
+
+.card_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  clear: both;
+  height: 100px;
+  width: 100px;
+  border: 1px solid #021a40;
+  background-color: #fff;
+}
+
+.card_name {
+  display: inline-block;
+  text-align: center;
+  margin-left: 12px;
+}
+
+.card_value {
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  border: 1px solid #021a40;
+  border-radius: 50px;
+  display: inline-block;
+  line-height: 2.5;
+}
+
+.card_action {
+  border-style: inset;
+}
+
+.action_text {
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.card {
+  -webkit-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.5);
+      -ms-transform: scale(1.5);
+          transform: scale(1.5);
+}
+</style><style type="text/css">
+#chat-box{
+  position:fixed;
+  top:10%;
+  left:67%;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #d9ebe9;
+}
+
+.messages{
+  width:200px;
+  height:200px;
+  overflow-y: auto;
+}
+
+.form-control{
+  width:100%;
+}
+
+#send_chat_btn{
+  margin-top: 5px;
+
+}
+</style><style type="text/css">body{
+  background-color: #ebe2c7;
+}
+#oppenent1_hand{
+  float:left;
+  display:inline-block;
+  margin-left: 5%;
+}
+
+#cards_in_play{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#player_hand{
+  float:right;
+  display:inline-block;
+  margin-right: 5%;
+}
+
+#card_view{
+  text-align: center;
+}
+
+.navbar{
+  background-color: #c8c7a1;
+  height:100%;
+}
+</style><style type="text/css">.messages{
+  width:200px;
+  height:200px;
+  overflow-y: auto;
+  background-color: #d9ebe9;
+}
+
+.chat_container{
+  float:right;
+  margin-right:10%;
+  text-align: center;
+  height: 100px;
+  width: 210px;
+}
+</style><style type="text/css">#login_body{
+  width:25%;
+  margin: 0 auto;
+  float:left;
+  margin-left: 5%;
+  text-align: center;
+}
+</style><style type="text/css">#main_title{
+  font-size: 20px;
+  text-align: center;
+}
+</style><style type="text/css">.dev_nav {
+	overflow: hidden;
+	padding: 1em;
+  -webkit-box-shadow: 2px 2px 25px #888888;
+          box-shadow: 2px 2px 25px #888888;
+}
+
+.navWide {
+  margin: 0 auto;
+}
+
+.wideDiv {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+</style></head>
+
+<body>
+  <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+  <div id="root"><div><div class="dev_nav"><div><header>Temp Dev Nav</header></div><div class="navWide"><div class="wideDiv"><a href="http://localhost:3000/">Main Page</a><a href="http://localhost:3000/twoplayer">2 v 2 Game page</a></div></div></div><div><div id="main_title"><header>Crush Note or whatever title - style me -</header></div><div id="main_body"><div><div id="login_body"><div><div style="color: rgba(0, 0, 0, 0.87); background-color: rgb(0, 188, 212); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; border-radius: 0px; position: relative; z-index: 1100; width: 100%; display: flex; padding-left: 24px; padding-right: 24px;"><button tabindex="0" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 8px 8px 0px -16px; padding: 12px; outline: none; font-size: 0px; font-weight: inherit; position: relative; overflow: visible; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; width: 48px; height: 48px; background: none;"><div><svg viewBox="0 0 24 24" style="display: inline-block; color: rgb(255, 255, 255); fill: rgb(255, 255, 255); height: 24px; width: 24px; user-select: none; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg></div></button><h1 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0px; padding-top: 0px; letter-spacing: 0px; font-size: 24px; font-weight: 400; color: rgb(255, 255, 255); height: 64px; line-height: 64px; flex: 1 1 0%;">Login</h1></div><div style="font-size: 16px; line-height: 24px; width: 256px; height: 72px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;"><label for="undefined-EnteryourUsername-Username-33389" style="position: absolute; line-height: 22px; top: 38px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; z-index: 1; transform: scale(1) translate(0px, 0px); transform-origin: left top 0px; pointer-events: none; user-select: none; color: rgba(0, 0, 0, 0.3);">Username</label><div style="position: absolute; opacity: 0; color: rgba(0, 0, 0, 0.3); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">Enter your Username</div><input type="text" id="undefined-EnteryourUsername-Username-33389" style="padding: 0px; position: relative; width: 100%; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; opacity: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 100%; box-sizing: border-box; margin-top: 14px;"><div><hr aria-hidden="true" style="border-top: none rgb(224, 224, 224); border-left: none rgb(224, 224, 224); border-right: none rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;"><hr aria-hidden="true" style="border-top: none rgb(0, 188, 212); border-left: none rgb(0, 188, 212); border-right: none rgb(0, 188, 212); border-bottom: 2px solid rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"></div></div><br><div style="font-size: 16px; line-height: 24px; width: 256px; height: 72px; display: inline-block; position: relative; background-color: transparent; font-family: Roboto, sans-serif; transition: height 200ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; cursor: auto;"><label for="undefined-EnteryourPassword-Password-26603" style="position: absolute; line-height: 22px; top: 38px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; z-index: 1; transform: scale(1) translate(0px, 0px); transform-origin: left top 0px; pointer-events: none; user-select: none; color: rgba(0, 0, 0, 0.3);">Password</label><div style="position: absolute; opacity: 0; color: rgba(0, 0, 0, 0.3); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; bottom: 12px;">Enter your Password</div><input type="password" id="undefined-EnteryourPassword-Password-26603" style="padding: 0px; position: relative; width: 100%; border: none; outline: none; background-color: rgba(0, 0, 0, 0); color: rgba(0, 0, 0, 0.87); cursor: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; opacity: 1; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); height: 100%; box-sizing: border-box; margin-top: 14px;"><div><hr aria-hidden="true" style="border-top: none rgb(224, 224, 224); border-left: none rgb(224, 224, 224); border-right: none rgb(224, 224, 224); border-bottom: 1px solid rgb(224, 224, 224); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%;"><hr aria-hidden="true" style="border-top: none rgb(0, 188, 212); border-left: none rgb(0, 188, 212); border-right: none rgb(0, 188, 212); border-bottom: 2px solid rgb(0, 188, 212); bottom: 8px; box-sizing: content-box; margin: 0px; position: absolute; width: 100%; transform: scaleX(0); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;"></div></div><br><div style="color: rgba(0, 0, 0, 0.87); background-color: rgb(255, 255, 255); transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; box-sizing: border-box; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; border-radius: 2px; display: inline-block; min-width: 88px; margin: 15px;"><button tabindex="0" type="button" style="border: 10px; box-sizing: border-box; display: inline-block; font-family: Roboto, sans-serif; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); cursor: pointer; text-decoration: none; margin: 0px; padding: 0px; outline: none; font-size: inherit; font-weight: inherit; position: relative; height: 36px; line-height: 36px; width: 100%; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; background-color: rgb(0, 188, 212); text-align: center;"><div><div style="height: 36px; border-radius: 2px; transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms; top: 0px;"><span style="position: relative; opacity: 1; font-size: 14px; letter-spacing: 0px; text-transform: uppercase; font-weight: 500; margin: 0px; user-select: none; padding-left: 16px; padding-right: 16px; color: rgb(255, 255, 255);">Submit</span></div></div></button></div></div></div><div class="chat_container"><div class="chat-body"><div class="chat-title">Main Chat</div><hr><div class="messages"></div></div><div class="card-footer"><input type="text" placeholder="Username" value="" class="form-control"><br><input type="text" placeholder="Message" class="form-control" value=""><br><button class="btn btn-primary form-control">Send</button></div></div></div></div></div></div></div>
+<script type="text/javascript" src="./Crush Note_files/bundle.js.download"></script><style>
+      button::-moz-focus-inner,
+      input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+      }
+    </style>
+
+
+</body></html>
