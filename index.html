@@ -58,24 +58,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="navbar-collapse collapse" id="navbarResponsive">
       <ul class="navbar-nav mx-auto w-100 justify-content-center">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">Bio</a>
+          <a class="nav-link js-scroll-trigger" href="#about" onclick="dataLayer.push({'TopNavLink': 'Bio'});">Bio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+          <a class="nav-link js-scroll-trigger" href="#skills" onclick="dataLayer.push({'TopNavLink': 'Skills'});">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
+          <a class="nav-link js-scroll-trigger" href="#portfolio" onclick="dataLayer.push({'TopNavLink': 'Projecys'});">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          <a class="nav-link js-scroll-trigger" href="#contact" onclick="dataLayer.push({'TopNavLink': 'Contact'});">Contact</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link js-scroll-trigger" class="dropbtn">My Links</a>
           <div class="dropdown-content">
-            <a target="_blank" href="https://github.com/jdlehne"><i class="fa fa-github"></i><span>Github</span></a>
+            <a target="_blank" href="https://github.com/jdlehne"><i class="fa fa-github" onclick="dataLayer.push({'SocialLink': 'GitHub Profile'});"></i><span>Github</span></a>
             <!--<img src="./img/LI_skill.png" alt="wedding day" class="img-circle img-responsive img-about img-hover">-->
-            <a target="_blank" href="https://www.linkedin.com/in/josh-lehne"><i class="fa fa-linkedin-square"></i><span>LinkedIn</span></a>
-            <a target="_blank" href="https://www.facebook.com/josh.lehne.7"><i class="fa fa-facebook-square"></i><span>Facebook</span></a>
+            <a target="_blank" href="https://www.linkedin.com/in/josh-lehne"><i class="fa fa-linkedin-square" onclick="dataLayer.push({'SocialLink': 'LinkedIn Profile'});"></i><span>LinkedIn</span></a>
+            <a target="_blank" href="https://www.facebook.com/josh.lehne.7"><i class="fa fa-facebook-square" onclick="dataLayer.push({'SocialLink': 'facebook Profile'});"></i><span>Facebook</span></a>
           </div>
         </li>
       </ul>
